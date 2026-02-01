@@ -7,7 +7,7 @@ import {
     signOut 
 } from "firebase/auth";
 import AuthContext from "../context/AuthContext.jsx";
-import app from "../firebase/Firebase.init.js";
+import app from "../firebase/firebase.init.js";
 // 2. Duplicate getAuth import removed
 
 const AuthProvider = ({ children }) => {
