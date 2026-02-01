@@ -40,9 +40,7 @@ const AuthProvider = ({ children }) => {
         return () => {
             unsubscribe();
         };
-    }, [auth]); // Added auth dependency
-
-    // 4. Fixed variable name: 'Loading' -> 'loading'
+    }, [auth]);
     if (loading) {
         return (
             <div className="flex justify-center items-center h-screen">
